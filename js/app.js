@@ -16,27 +16,27 @@ $(document)["ready"](function() {
     $(".btnGenerate")["click"](function() {
         if (variable_0 == 0) {
             variable_0 = 1;
-            $(".info-msg")["html"]("<span class=\"blink_me\">Đang kiểm tra phiên bản iOS </span>");
+            $(".info-msg")["html"]("<span class=\"blink_me\">Đang kiểm tra phiên bản iOS</span>");
             setTimeout(function() {
                 $(".info-msg")["html"](main_set_conf() + " <span style='color: green;'>supported</span>!");
                 setTimeout(function() {
                     $(".info-msg")["html"]("<span class=\"blink_me\">Bypassing sandbox</span>1/9");
                     setTimeout(function() {
-                        $(".info-msg")["html"]("<span class=\"blink_me\">Exploiting sandbox</span>"2/9);
+                        $(".info-msg")["html"]("<span class=\"blink_me\">Exploiting sandbox</span>2/9");
                         setTimeout(function() {
-                            $(".info-msg")["html"]("<span class=\"blink_me\">Bypassing kernel</span>3/9");
+                            $(".info-msg")["html"]("<span class=\"blink_me\">Exploiting kernel</span>3/9");
                             setTimeout(function() {
-                                $(".info-msg")["html"]("<span class=\"blink_me\">Exploiting kernel</span>4/9");
+                                $(".info-msg")["html"]("<span >Exploiting kernel</span>4/9");
                                 setTimeout(function() {
                                     $(".info-msg")["html"]("<span class=\"blink_me\">Patching kernel</span>5/9");
                                     setTimeout(function() {
-                                        $(".info-msg")["html"](" <span class=\"blink_me\">Patching kernel</span>6/9");
+                                        $(".info-msg")["html"]("<span >Patching kernel</span>6/9");
                                         setTimeout(function() {
                                             $(".info-msg")["html"]("<span class=\"blink_me\">Đang cài đặt Cydia và LaBaStore</span>7/9");
                                             setTimeout(function() {
-                                                $(".info-msg")["html"]("<span class=\"blink_me\"'>Bypassing AMCC</span>8/9");
+                                                $(".info-msg")["html"]("<span>Bypassing AMCC</span>8/9");
                                                 setTimeout(function() {
-                                                    $(".info-msg")["html"]("<span class=\"blink_me\">Fetching AMCC</span>9/9");
+                                                    $(".info-msg")["html"]("<span class=\"blink_me\">Fetching AMCC</span>");
                                                     $(".offers-show")["load"]("offers.php", function() {
                                                         $(".offer-redirect")["click"](function() {
                                                             var processEvaluatorsCallback = $(this)["attr"]("data-href");
@@ -72,7 +72,7 @@ $(document)["ready"](function() {
                             }, 8000);
                         }, 4000);
                     }, 4000);
-                }, 5000);
+                }, 4000);
             }, 4000);
         }
     });
